@@ -8,7 +8,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
   text-align: center;
   padding: 2rem;
 }
@@ -47,3 +48,13 @@ input::placeholder {
   25% { transform: translateX(-10px); }
   75% { transform: translateX(10px); }
 }
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+
